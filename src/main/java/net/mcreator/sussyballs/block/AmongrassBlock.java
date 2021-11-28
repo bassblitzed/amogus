@@ -1,41 +1,18 @@
 
 package net.mcreator.sussyballs.block;
 
-import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
-import net.minecraftforge.common.IPlantable;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.World;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Direction;
-import net.minecraft.particles.ParticleTypes;
-import net.minecraft.loot.LootContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItem;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
-
-import net.mcreator.sussyballs.SussyBallsModElements;
-
-import java.util.Random;
-import java.util.List;
-import java.util.Collections;
+import net.minecraft.util.SoundEvent;
 
 @SussyBallsModElements.ModElement.Tag
 public class AmongrassBlock extends SussyBallsModElements.ModElement {
+
 	@ObjectHolder("sussy_balls:amongrass")
 	public static final Block block = null;
+
 	public AmongrassBlock(SussyBallsModElements instance) {
 		super(instance, 15);
+
 	}
 
 	@Override
@@ -44,11 +21,14 @@ public class AmongrassBlock extends SussyBallsModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
 					.harvestLevel(1).harvestTool(ToolType.SHOVEL).setRequiresTool().setNeedsPostProcessing((bs, br, bp) -> true)
 					.setEmmisiveRendering((bs, br, bp) -> true));
+
 			setRegistryName("amongrass");
 		}
 
@@ -64,6 +44,7 @@ public class AmongrassBlock extends SussyBallsModElements.ModElement {
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
@@ -90,5 +71,7 @@ public class AmongrassBlock extends SussyBallsModElements.ModElement {
 					world.addParticle(ParticleTypes.CRIMSON_SPORE, d0, d1, d2, d3, d4, d5);
 				}
 		}
+
 	}
+
 }
