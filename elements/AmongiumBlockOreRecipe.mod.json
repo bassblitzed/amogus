@@ -7,7 +7,7 @@
     "cookingTime": 200,
     "recipeRetstackSize": 2,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
