@@ -94,7 +94,7 @@
       "name": "Dildoium",
       "type": "block",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "dildoium"
@@ -103,7 +103,7 @@
       "name": "Hitler",
       "type": "livingentity",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "hitler"
@@ -112,7 +112,7 @@
       "name": "AmongUsThemeSong",
       "type": "musicdisc",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "among_us_theme_song"
