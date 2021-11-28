@@ -1,1 +1,12 @@
-{}
+{
+  "amongustrapremix": {
+    "category": "record",
+    "subtitle": "subtitles.amongustrapremix",
+    "sounds": [
+      {
+        "name": "sussy_balls:among_us_trap_remix",
+        "stream": true
+      }
+    ]
+  }
+}

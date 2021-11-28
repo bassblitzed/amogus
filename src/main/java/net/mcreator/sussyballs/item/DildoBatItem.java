@@ -40,7 +40,7 @@ public class DildoBatItem extends SussyBallsModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 69f;
+				return 15f;
 			}
 
 			public float getAttackDamage() {
@@ -52,13 +52,28 @@ public class DildoBatItem extends SussyBallsModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 69;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
+			@Override
+			public boolean hasContainerItem() {
+				return true;
+			}
+
+			@Override
+			public ItemStack getContainerItem(ItemStack itemstack) {
+				return new ItemStack(this);
+			}
+
+			@Override
+			public boolean isRepairable(ItemStack itemstack) {
+				return false;
+			}
+
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
