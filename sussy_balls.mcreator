@@ -116,6 +116,44 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "among_us_theme_song"
+    },
+    {
+      "name": "NukeOnKeyPressed",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nuke_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nuke",
+      "type": "keybind",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nuke"
     }
   ],
   "variable_elements": [],
@@ -136,6 +174,7 @@
       "item.sussy_balls.dildo_bat": "Dildo Bat",
       "item.sussy_balls.amongium_ingot": "Amongium",
       "subtitles.amongustrapremix": "bum bum bum bum bum bum bum bum bum",
+      "key.sussy_balls.nuke": "Nuke",
       "block.sussy_balls.amongium_ore": "Amongium Ore"
     }
   },
