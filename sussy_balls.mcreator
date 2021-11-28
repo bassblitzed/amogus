@@ -63,6 +63,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "among_us_theme_song"
+    },
+    {
+      "name": "DildoBatLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dildo_bat_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Amogus",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amogus"
+    },
+    {
+      "name": "DildoBat",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dildo_bat"
     }
   ],
   "variable_elements": [],
@@ -80,8 +115,6 @@
     "en_us": {
       "subtitles.mungeesong": "bum bum bum bum bum",
       "block.sussy_balls.amongium_block": "Block of Amongium",
-      "item.sussy_balls.among_us_theme_song": "Among Us Theme Song",
-      "item.sussy_balls.among_us_theme_song.desc": "bum bum bum bum bum",
       "item.sussy_balls.amongium_ingot": "Amongium",
       "subtitles.amongustrapremix": "bum bum bum bum bum bum bum bum bum",
       "block.sussy_balls.amongium_ore": "Amongium Ore"

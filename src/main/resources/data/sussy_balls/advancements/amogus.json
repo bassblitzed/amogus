@@ -1,0 +1,37 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "sussy_balls:amongium_ore"
+    },
+    "title": {
+      "translate": "advancements.amogus.title"
+    },
+    "description": {
+      "translate": "advancements.amogus.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "amogus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "sussy_balls:amongium_ore",
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 69
+  }
+}

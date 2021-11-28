@@ -1,0 +1,32 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "dildobat",
+    "customModelName": "Normal",
+    "name": "Dildo Bat",
+    "specialInfo": [
+      "Fuck them mobs"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 69.0,
+    "attackSpeed": 1.0,
+    "enchantability": 69,
+    "damageVsEntity": 8.0,
+    "usageCount": 42069,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "DildoBatLivingEntityIsHitWithTool"
+    }
+  }
+}
