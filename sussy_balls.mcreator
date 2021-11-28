@@ -118,15 +118,6 @@
       "registry_name": "among_us_theme_song"
     },
     {
-      "name": "DildoiumIngot",
-      "type": "item",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dildoium_ingot"
-    },
-    {
       "name": "AmongUsThemeSongRightClickedOnBlock",
       "type": "procedure",
       "sortid": 11,
@@ -139,13 +130,13 @@
       }
     },
     {
-      "name": "DildoiumIngotRecipe",
-      "type": "recipe",
-      "sortid": 12,
+      "name": "DildoiumIngot",
+      "type": "item",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dildoium_ingot_recipe"
+      "registry_name": "dildoium_ingot"
     },
     {
       "name": "AmongiumIngotRecipe",
@@ -164,6 +155,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dildo_bat_recipe"
+    },
+    {
+      "name": "DildoiumIngotRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dildoium_ingot_recipe"
+    },
+    {
+      "name": "NukeOnKeyPressed",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nuke_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nuke",
+      "type": "keybind",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nuke"
     }
   ],
   "variable_elements": [],
@@ -179,16 +217,15 @@
   ],
   "language_map": {
     "en_us": {
+      "subtitles.mungeesong": "bum bum bum bum bum",
       "block.sussy_balls.amongium_block": "Block of Amongium",
       "item.sussy_balls.dildo_bat": "Dildo Bat",
+      "item.sussy_balls.hitler_spawn_egg": "Hitler Spawn Egg",
       "item.sussy_balls.among_us_theme_song": "Among Us Theme Song",
       "item.sussy_balls.among_us_theme_song.desc": "bum bum bum bum bum",
       "item.sussy_balls.amongium_ingot": "Amongium",
       "block.sussy_balls.dildoium": "Dildoium",
-      "item.sussy_balls.dildoium_ingot": "Dildoium Ingot",
       "subtitles.amongustrapremix": "bum bum bum bum bum bum bum bum bum",
-      "subtitles.mungeesong": "bum bum bum bum bum",
-      "item.sussy_balls.hitler_spawn_egg": "Hitler Spawn Egg",
       "entity.sussy_balls.hitler": "Hitler",
       "block.sussy_balls.amongium_ore": "Amongium Ore"
     }
