@@ -45,6 +45,8 @@ public class SussyBallsModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public SussyBallsModElements() {
+		sounds.put(new ResourceLocation("sussy_balls", "amongustrapremix"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("sussy_balls", "amongustrapremix")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("sussy_balls").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -1,0 +1,19 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "amongus_record",
+    "name": "Among Us Theme Song",
+    "description": "bum bum bum bum bum",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:amongustrapremix"
+    },
+    "specialInfo": [
+      "sussy balls fortnite im gay"
+    ],
+    "hasGlow": true
+  }
+}

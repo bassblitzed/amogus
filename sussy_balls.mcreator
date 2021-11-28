@@ -54,14 +54,36 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "amongium_ore_smelting"
+    },
+    {
+      "name": "AmongUsThemeSong",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "among_us_theme_song"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "amongustrapremix",
+      "files": [
+        "among_us_trap_remix"
+      ],
+      "category": "record",
+      "subtitle": "bum bum bum bum bum bum bum bum bum"
+    }
+  ],
   "language_map": {
     "en_us": {
+      "subtitles.mungeesong": "bum bum bum bum bum",
       "block.sussy_balls.amongium_block": "Block of Amongium",
+      "item.sussy_balls.among_us_theme_song": "Among Us Theme Song",
+      "item.sussy_balls.among_us_theme_song.desc": "bum bum bum bum bum",
       "item.sussy_balls.amongium_ingot": "Amongium",
+      "subtitles.amongustrapremix": "bum bum bum bum bum bum bum bum bum",
       "block.sussy_balls.amongium_ore": "Amongium Ore"
     }
   },
