@@ -54,6 +54,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "amongium_ore_smelting"
+    },
+    {
+      "name": "Amogus",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amogus"
+    },
+    {
+      "name": "DildoBatLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dildo_bat_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DildoBat",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dildo_bat"
     }
   ],
   "variable_elements": [],
@@ -61,7 +96,10 @@
   "language_map": {
     "en_us": {
       "block.sussy_balls.amongium_block": "Block of Amongium",
+      "item.sussy_balls.dildo_bat": "Dildo Bat",
+      "advancements.amogus.descr": "Mine Amognium Ore",
       "item.sussy_balls.amongium_ingot": "Amongium",
+      "advancements.amogus.title": "Amogus",
       "block.sussy_balls.amongium_ore": "Amongium Ore"
     }
   },
