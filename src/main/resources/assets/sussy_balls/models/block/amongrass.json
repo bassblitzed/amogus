@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sussy_balls:blocks/amongrass_bottom2",
+    "up": "sussy_balls:blocks/amongrass_top2",
+    "north": "sussy_balls:blocks/amongrass_side2",
+    "east": "sussy_balls:blocks/amongrass_side2",
+    "south": "sussy_balls:blocks/amongrass_side2",
+    "west": "sussy_balls:blocks/amongrass_side2",
+    "particle": "sussy_balls:blocks/amongrass_bottom2"
+  }
+}
