@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "sussy_balls:blocks/dildoium",
+    "particle": "sussy_balls:blocks/dildoium"
+  }
+}

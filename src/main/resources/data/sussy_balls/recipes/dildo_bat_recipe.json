@@ -1,0 +1,30 @@
+{
+  "group": "sussy_balls",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "34 ",
+    "67 "
+  ],
+  "key": {
+    "2": {
+      "item": "sussy_balls:dildoium_ingot"
+    },
+    "3": {
+      "item": "sussy_balls:dildoium_ingot"
+    },
+    "4": {
+      "item": "sussy_balls:dildoium_ingot"
+    },
+    "6": {
+      "item": "minecraft:redstone_torch"
+    },
+    "7": {
+      "item": "sussy_balls:dildoium_ingot"
+    }
+  },
+  "result": {
+    "item": "sussy_balls:dildo_bat",
+    "count": 1
+  }
+}

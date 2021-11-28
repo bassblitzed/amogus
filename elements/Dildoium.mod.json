@@ -15,7 +15,6 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Pane",
     "tintType": "Water fog",
     "isItemTinted": true,
     "hasTransparency": false,

@@ -1,0 +1,12 @@
+{
+  "group": "sussy_balls",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 2000,
+  "ingredient": {
+    "item": "sussy_balls:dildoium"
+  },
+  "result": {
+    "item": "sussy_balls:dildoium_ingot"
+  }
+}
