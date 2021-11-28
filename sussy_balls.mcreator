@@ -1,0 +1,90 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "AmongiumIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amongium_ingot"
+    },
+    {
+      "name": "AmongiumOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amongium_ore"
+    },
+    {
+      "name": "AmongiumBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amongium_block"
+    },
+    {
+      "name": "AmongiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amongium_ore_block_recipe"
+    },
+    {
+      "name": "AmongiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amongium_block_ore_recipe"
+    },
+    {
+      "name": "AmongiumOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amongium_ore_smelting"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.sussy_balls.amongium_block": "Block of Amongium",
+      "item.sussy_balls.amongium_ingot": "Amongium",
+      "block.sussy_balls.amongium_ore": "Amongium Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sussy_balls",
+    "modName": "Sussy Balls",
+    "version": "1.0.0",
+    "author": "Bassblitzed, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.sussyballs",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

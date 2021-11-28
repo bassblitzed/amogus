@@ -1,0 +1,12 @@
+{
+  "group": "sussy_balls",
+  "type": "minecraft:smelting",
+  "experience": 3.5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "sussy_balls:amongium_ore"
+  },
+  "result": {
+    "item": "sussy_balls:amongium_ingot"
+  }
+}

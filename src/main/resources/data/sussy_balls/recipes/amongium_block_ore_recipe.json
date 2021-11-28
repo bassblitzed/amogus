@@ -1,0 +1,13 @@
+{
+  "group": "sussy_balls",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sussy_balls:amongium_block"
+    }
+  ],
+  "result": {
+    "item": "sussy_balls:amongium_ingot",
+    "count": 2
+  }
+}

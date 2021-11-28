@@ -1,0 +1,19 @@
+{
+  "group": "sussy_balls",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "sussy_balls:amongium_ingot"
+    },
+    "1": {
+      "item": "sussy_balls:amongium_ingot"
+    }
+  },
+  "result": {
+    "item": "sussy_balls:amongium_block",
+    "count": 1
+  }
+}
